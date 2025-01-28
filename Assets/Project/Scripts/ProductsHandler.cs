@@ -74,7 +74,7 @@ public class ProductsHandler : MonoBehaviour
     public void UpdateContent(Item item, int filterProductIndex)
     {
 
-        // item.img.sprite = filteredProducts[filterProductIndex].img;
+        item.img.sprite = filteredProducts[filterProductIndex].img;
         item.text.text = filterProductIndex.ToString();
         item.text.text = filteredProducts[filterProductIndex].name;
 
